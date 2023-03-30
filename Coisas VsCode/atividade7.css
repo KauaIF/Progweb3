@@ -1,0 +1,26 @@
+.DivBotoes{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    
+}
+.btn{
+    padding: 10px 8px;
+    min-width: wrap;
+    max-width:fit-content;
+    color: black;
+    background: #CFEFFC;
+    border-radius: 20%;
+    border: 1px solid purple;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.Lista{
+    background: greenyellow;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid purple;
+    margin: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}

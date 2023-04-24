@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color: silver;
+}
+.botaoMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: min-content;
+    height: 100%;
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.botaoMenu ol{
+    visibility: hidden;
+}
+.conteudo{
+    justify-self:center;
+    padding-top: 10px;
+    text-indent: 10px;
+    width: 300px;
+    height: min-content;
+    background-color: silver;
+}
+.fomulario{
+    text-indent: 0px;
+    background-color: white;
+    height: 100%;
+}
+form{
+    padding: 5%;
+}
+form input{
+    width: 240px;
+}
+button{
+    margin: 5%;
+    width: 90%;
+    height: auto;
+}
+.botaoMenu:hover{
+    background-color: red;
+}
